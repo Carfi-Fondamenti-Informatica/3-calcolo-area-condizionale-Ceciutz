@@ -7,16 +7,16 @@ int main() {
    cin>>a>>b>>opzione;
    switch(opzione){
       case 0:
-         cout<<((b*a)/2)<<endl;
+         cout<<((b*a)/2);
          break;
       case 1:
-         cout<<(a*a)<<endl;
+         cout<<(a*a);
          break;
       case 2:
-         cout<<(a*b)<<endl;
+         cout<<(a*b);
          break;
       default:
-         cout<<"Opzione non valida"<<endl;
+         cout<<"Opzione non valida";
    }     
    return 0;
 }
