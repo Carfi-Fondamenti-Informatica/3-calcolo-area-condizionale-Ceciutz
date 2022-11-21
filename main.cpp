@@ -4,9 +4,7 @@ using namespace std;
 int main() {
    float a=0,b=0;
    int opzione=0;
-   cin>>a
-   cin>>b
-   cin>>opzione;
+   cin>>a>>b>>opzione;
    switch(opzione){
       case 0:
          cout<<((b*a)/2);
